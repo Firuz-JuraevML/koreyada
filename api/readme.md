@@ -298,8 +298,83 @@
 --- 
 
 
+### 5. Business Page Endpoints 
+<details>
+<summary> 📌 POST /business_details/ </summary>
+
+### Businesses Details Endpoint 
+* Returns business's details 
+
+> Request body: 
+```json
+{
+  "business_id": 1 
+}
+```
+
+> Response (200): 
+```json
+{
+  "1": {  "business_id": 12
+          "article_title_en": "How to open a bank account in Korea",
+          "article_title_uz": "Qanday qilib bank hisob raqam ochish", 
+       }
+}
+```
+</details>
 
 
 
 
+<details>
+<summary> 📌 POST /business_comments/ </summary>
+
+### Businesses Comments Endpoint 
+* Returns business's comments  
+
+> Request body: 
+```json
+{
+  "business_id": 1 
+}
+```
+
+> Response (200): 
+```json
+{
+  "1": {  "comment_id": 12
+          "comment_author_name": "Firuz Juraev",
+          "comment_rating": 4.5, 
+          "comment_date": "2025-08-12",
+          "comment_content": "Norm company"
+       }
+}
+```
+</details>
+
+
+
+<details>
+<summary> 📌 POST /business_comment_post/ </summary>
+
+### Business Comment Post Endpoint 
+* Returns business's comments  
+
+> Request body: 
+```json
+{
+  "comment_post_business_id": 1,
+  "comment_post_user_id": 23,
+  "comment_post_rating": 4,
+  "comment_post_content": "Telefonga javob bermas ekan" 
+}
+```
+
+> Response (200): 
+```json
+{
+   message: "Successfully posted!"
+}
+```
+</details>
 

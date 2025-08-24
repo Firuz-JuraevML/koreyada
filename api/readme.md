@@ -198,9 +198,9 @@
 
 ### 3. Categories Page Endpoints 
 <details>
-<summary> 📌 POST /businesses/ </summary>
+<summary> 📌 POST /category_businesses/ </summary>
 
-### Businesses Endpoint 
+### Category Businesses Endpoint 
 * Returns the list of registered businesses
 
 > Request body: 
@@ -221,7 +221,60 @@
 ```
 </details>
 
+
+
+<details>
+<summary> 📌 POST /category_articles/ </summary> 
+  
+### Category Articles Endpoint 
+* Returns the list of articles related to the selected category 
+
+> Request body: 
+```json
+{
+  "category_id": 1 
+}
+```
+
+> Response (200): 
+```json
+{
+  "1": {  "business_id": 12
+          "article_title_en": "How to open a bank account in Korea",
+          "article_title_uz": "Qanday qilib bank hisob raqam ochish", 
+       }
+}
+```
+</details>
+
+
+<details>
+<summary> 📌 POST /category_news/ </summary> 
+  
+### Category News Endpoint 
+* Returns the list of news related to the selected category 
+
+> Request body: 
+```json
+{
+  "category_id": 1 
+}
+```
+
+> Response (200): 
+```json
+{
+  "1": {  "business_id": 12
+          "article_title_en": "How to open a bank account in Korea",
+          "article_title_uz": "Qanday qilib bank hisob raqam ochish", 
+       }
+}
+```
+</details>
+
 --- 
+
+
 
 
 

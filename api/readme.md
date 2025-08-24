@@ -28,6 +28,7 @@ Language: Python
 
 <details>
 <summary>📌 GET /main_statistics/</summary>
+  
 ### Main Statistics Endpoint 
 * Returns general statistics about the website: number of registered users, number of categories, number of registered businesses, etc. 
 
@@ -46,6 +47,7 @@ Language: Python
 
 <details>
 <summary> 📌 GET /categories/ </summary>
+
 ### Main Statistics Endpoint 
 * Returns categories with some information: visa, restaurants, money transfers, etc. 
 

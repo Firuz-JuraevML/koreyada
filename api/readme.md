@@ -27,8 +27,7 @@ Language: Python
 ### 1. Main Page API Endpoints
 
 <details>
-
-<summary>Tips for collapsed sections</summary>
+<summary>/main_statistics/</summary>
 
 ### You can add a header
 
@@ -36,8 +35,14 @@ You can add text within a collapsed section.
 
 You can add an image or a code block, too.
 
-```ruby
-   puts "Hello World"
+```json
+{
+  "count": 2,
+  "items": [
+    { "id": 1, "name": "Item A" },
+    { "id": 2, "name": "Item B" }
+  ]
+}
 ```
 
 </details>

@@ -98,3 +98,33 @@
 }
 ```
 </details>
+
+--- 
+
+### 2. Categories Page Endpoints 
+<details>
+<summary> 📌 POST /businesses/ </summary>
+
+### Businesses Endpoint 
+* Returns the list of registered businesses
+
+> Request body: 
+```json
+{
+  "category_id": 1 
+}
+```
+
+> Response (200): 
+```json
+{
+  "1": {  "business_id": 12
+          "article_title_en": "How to open a bank account in Korea",
+          "article_title_uz": "Qanday qilib bank hisob raqam ochish", 
+       }
+}
+```
+</details>
+
+--- 
+

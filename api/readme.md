@@ -461,7 +461,7 @@
 
 
 
-### 6. News Page Endpoints 
+### 7. Article Page Endpoints 
 <details>
 <summary> 📌 POST /article_details/ </summary>
 
@@ -484,5 +484,53 @@
 }
 ```
 </details>
+
+--- 
+
+
+### 8. All News Page Endpoints 
+
+<details>
+<summary> 📌 GET /all_news/ </summary>
+
+### All News Endpoint 
+* Returns all news with some information 
+
+> Response (200): 
+```json
+{
+  "1": {  "category_id": 1
+          "category_name_en": "Visa",
+          "category_name_uz": "Viza", 
+          "category_description_en": "Visa applications, renewals, and immigration assistance",
+       }
+}
+```
+</details>
+
+
+---  
+
+
+### 3. All Articles Page Endpoints 
+
+<details>
+<summary> 📌 GET /all_articles/ </summary>
+
+### All Articles Endpoint 
+* Returns all articles with some information
+
+> Response (200): 
+```json
+{
+  "1": {  "category_id": 1
+          "category_name_en": "Visa",
+          "category_name_uz": "Viza", 
+          "category_description_en": "Visa applications, renewals, and immigration assistance",
+       }
+}
+```
+</details>
+
 
 --- 

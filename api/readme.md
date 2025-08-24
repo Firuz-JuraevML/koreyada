@@ -48,7 +48,7 @@
 <details>
 <summary> 📌 GET /categories/ </summary>
 
-### Main Statistics Endpoint 
+### Categories Endpoint 
 * Returns categories with some information: visa, restaurants, money transfers, etc. 
 
 > Response (200): 
@@ -62,3 +62,22 @@
 }
 ```
 </details>
+
+
+<details>
+<summary> 📌 GET /latest_news/ </summary>
+
+### Latest News Endpoint 
+* Returns the latest posted news 
+
+> Response (200): 
+```json
+{
+  "1": {  "news_id": 23
+          "news_title_en": "The rules for getting E-7 have changed",
+          "news_title_uz": "E-7 olish qoidalari o'zgardi",
+       }
+}
+```
+</details>
+

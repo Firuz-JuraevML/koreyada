@@ -24,7 +24,80 @@
 | 503  | **Service Unavailable**  | Server temporarily down or overloaded |
 </details> 
 
-### 1. Main Page API Endpoints
+### 1. Login & Sign up Endpoints 
+<details>
+<summary> 📌 POST /login/ </summary>
+
+### Login Endpoint 
+* User login page 
+
+> Request body: 
+```json
+{
+  "login": "fjuraev",
+  "password": "Ewing0605"
+}
+```
+
+> Response (200): 
+```json
+{
+ "user_id": 233
+ "user_name": "Firuz Juraev"
+}
+```
+</details>
+
+
+
+### Sign up Endpoint 
+<details>
+<summary> 📌 POST /sign_up/ </summary> 
+* User sign up
+
+> Request body: 
+```json
+{
+  ""
+  "login": "fjuraev",
+  "password": "Ewing0605"
+}
+```
+
+> Response (200): 
+```json
+{
+ "message": "Successfully registered" 
+}
+```
+</details>
+
+
+### Forget Password Endpoint 
+<details>
+<summary> 📌 POST /forget_password/ </summary> 
+* User forgot password
+
+> Request body: 
+```json
+{
+  ""
+  "email": "example@gmail.com",
+}
+```
+
+> Response (200): 
+```json
+{
+ "message": "Email found & and sent" 
+}
+```
+</details>
+
+--- 
+
+
+### 2. Main Page API Endpoints
 
 <details>
 <summary>📌 GET /main_statistics/</summary>
@@ -120,7 +193,7 @@
 --- 
 
 
-### 2. Categories Page Endpoints 
+### 3. Categories Page Endpoints 
 <details>
 <summary> 📌 POST /businesses/ </summary>
 
@@ -146,4 +219,8 @@
 </details>
 
 --- 
+
+
+
+
 

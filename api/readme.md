@@ -50,11 +50,13 @@
 
 
 
-### Sign up Endpoint 
+
 <details>
 <summary> 📌 POST /sign_up/ </summary> 
+  
+### Sign up Endpoint   
 * User sign up
-
+  
 > Request body: 
 ```json
 {
@@ -73,9 +75,10 @@
 </details>
 
 
-### Forget Password Endpoint 
 <details>
 <summary> 📌 POST /forget_password/ </summary> 
+
+### Forget Password Endpoint  
 * User forgot password
 
 > Request body: 

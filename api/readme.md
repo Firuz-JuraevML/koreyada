@@ -85,15 +85,15 @@
 <details>
 <summary> 📌 GET /latest_articles/ </summary>
 
-### Latest News Endpoint 
+### Latest Articles Endpoint 
 * Returns the latest posted articles 
 
 > Response (200): 
 ```json
 {
-  "1": {  "news_id": 23
-          "news_title_en": "The rules for getting E-7 have changed",
-          "news_title_uz": "E-7 olish qoidalari o'zgardi",
+  "1": {  "article_id": 24
+          "article_title_en": "How to open a bank account in Korea",
+          "article_title_uz": "Qanday qilib bank hisob raqam ochish", 
        }
 }
 ```

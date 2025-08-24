@@ -512,7 +512,7 @@
 ---  
 
 
-### 3. All Articles Page Endpoints 
+### 9. All Articles Page Endpoints 
 
 <details>
 <summary> 📌 GET /all_articles/ </summary>

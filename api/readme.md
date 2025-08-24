@@ -27,9 +27,11 @@ Language: Python
 ### 1. Main Page API Endpoints
 
 <details>
-<summary>**GET** _/main_statistics/_</summary>
+<summary>GET /main_statistics/</summary>
 
 ### Main Statistics Endpoint 
+> [!NOTE]
+> Returns general statistics about the website: number of registered users, number of categories, number of registered businesses, etc. 
 
 > Response (200): 
 ```json

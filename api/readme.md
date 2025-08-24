@@ -21,7 +21,7 @@ Language: Python
 | 503  | **Service Unavailable**  | Server temporarily down or overloaded |
 
 
-> Main Page API Endpoints
+### 1. Main Page API Endpoints
 
 > [!NOTE]
 > Useful information that users should know, even when skimming content. 

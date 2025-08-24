@@ -315,14 +315,14 @@
 > Response (200): 
 ```json
 {
-  "1": {  "business_id": 12
-          "article_title_en": "How to open a bank account in Korea",
-          "article_title_uz": "Qanday qilib bank hisob raqam ochish", 
-       }
+   "business_id": 12
+   "article_title_en": "How to open a bank account in Korea",
+   "article_title_uz": "Qanday qilib bank hisob raqam ochish",
+
+   "services": ["visa xizmatlari", "trajima"] 
 }
 ```
 </details>
-
 
 
 
@@ -355,26 +355,107 @@
 
 
 <details>
-<summary> 📌 POST /business_comment_post/ </summary>
+<summary> 📌 POST /business_comment_upload/ </summary>
 
-### Business Comment Post Endpoint 
-* Returns business's comments  
+### Business Comment Upload Endpoint 
+* Uploads a new comment for the business 
 
 > Request body: 
 ```json
 {
-  "comment_post_business_id": 1,
-  "comment_post_user_id": 23,
-  "comment_post_rating": 4,
-  "comment_post_content": "Telefonga javob bermas ekan" 
+  "comment_upload_business_id": 1,
+  "comment_upload_user_id": 23,
+  "comment_upload_rating": 4,
+  "comment_upload_content": "Telefonga javob bermas ekan" 
 }
 ```
 
 > Response (200): 
 ```json
 {
-   message: "Successfully posted!"
+   message: "Successfully uploaded!"
 }
 ```
 </details>
+
+--- 
+
+
+### 5. News Page Endpoints 
+<details>
+<summary> 📌 POST /news_details/ </summary>
+
+### Businesses Details Endpoint 
+* Returns business's details 
+
+> Request body: 
+```json
+{
+  "news_id": 1 
+}
+```
+
+> Response (200): 
+```json
+{
+   "news_id": 12, 
+   "news_title_en": "How to open a bank account in Korea",
+   "news_title_uz": "Qanday qilib bank hisob raqam ochish", 
+}
+```
+</details>
+
+
+<details>
+<summary> 📌 POST /post_comments/ </summary>
+
+### Post  Details Endpoint 
+* Returns business's details 
+
+> Request body: 
+```json
+{
+  "post_id": 1 
+}
+```
+
+> Response (200): 
+```json
+{
+  "1": {  "comment_id": 12
+          "comment_author_name": "Firuz Juraev",
+          "comment_rating": 4.5, 
+          "comment_date": "2025-08-12",
+          "comment_content": "Norm news"
+       }
+}
+```
+</details>
+
+
+<details>
+<summary> 📌 POST /post_comment_upload/ </summary>
+
+### Post Comment Upload Endpoint 
+* Uploads a new comment for the post  
+
+> Request body: 
+```json
+{
+  "comment_upload_business_id": 1,
+  "comment_upload_user_id": 23,
+  "comment_upload_rating": 4,
+  "comment_upload_content": "Telefonga javob bermas ekan" 
+}
+```
+
+> Response (200): 
+```json
+{
+   message: "Successfully uploaded!"
+}
+```
+</details>
+
+--- 
 

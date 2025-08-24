@@ -27,8 +27,7 @@ Language: Python
 ### 1. Main Page API Endpoints
 
 <details>
-<summary>GET /main_statistics/</summary>
-
+<summary>📌 GET /main_statistics/</summary>
 ### Main Statistics Endpoint 
 * Returns general statistics about the website: number of registered users, number of categories, number of registered businesses, etc. 
 
@@ -40,6 +39,24 @@ Language: Python
   "n_businesses": 60,
   "n_articles": 20,
   "n_news": 45
+}
+```
+</details>
+
+
+<details>
+<summary> 📌 GET /categories/ </summary>
+### Main Statistics Endpoint 
+* Returns categories with some information: visa, restaurants, money transfers, etc. 
+
+> Response (200): 
+```json
+{
+  "1": {  "category_id": 1
+          "category_name_en": "Visa",
+          "category_name_uz": "Viza", 
+          "category_description_en": "Visa applications, renewals, and immigration assistance",
+       }
 }
 ```
 </details>

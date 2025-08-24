@@ -99,7 +99,6 @@
 ```
 </details>
 
---- 
 
 <details>
 <summary> 📌 GET /featured_businesses/ </summary>
@@ -119,6 +118,7 @@
 </details>
 
 --- 
+
 
 ### 2. Categories Page Endpoints 
 <details>

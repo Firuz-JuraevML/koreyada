@@ -101,6 +101,25 @@
 
 --- 
 
+<details>
+<summary> 📌 GET /featured_businesses/ </summary>
+
+### Latest Articles Endpoint 
+* Returns the latest posted articles 
+
+> Response (200): 
+```json
+{
+  "1": {  "article_id": 24
+          "article_title_en": "How to open a bank account in Korea",
+          "article_title_uz": "Qanday qilib bank hisob raqam ochish", 
+       }
+}
+```
+</details>
+
+--- 
+
 ### 2. Categories Page Endpoints 
 <details>
 <summary> 📌 POST /businesses/ </summary>

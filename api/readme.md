@@ -4,7 +4,10 @@ Language: Python
 
 
 
-## ⚡ Status Codes
+
+<details>
+<summary>⚡ Status Codes</summary> 
+
 | Code | Meaning                  | Usage Example |
 |------|--------------------------|---------------|
 | 200  | **OK**                   | Successful GET, PUT, or POST request |
@@ -19,7 +22,7 @@ Language: Python
 | 422  | **Unprocessable Entity** | Validation error in request data |
 | 500  | **Internal Server Error**| Generic server-side error |
 | 503  | **Service Unavailable**  | Server temporarily down or overloaded |
-
+</details> 
 
 ### 1. Main Page API Endpoints
 

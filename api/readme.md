@@ -196,7 +196,30 @@
 --- 
 
 
-### 3. Categories Page Endpoints 
+### 3. All Categories Page Endpoints 
+
+<details>
+<summary> 📌 GET /all_categories/ </summary>
+
+### Categories Endpoint 
+* Returns all categories with some information: visa, restaurants, money transfers, etc. 
+
+> Response (200): 
+```json
+{
+  "1": {  "category_id": 1
+          "category_name_en": "Visa",
+          "category_name_uz": "Viza", 
+          "category_description_en": "Visa applications, renewals, and immigration assistance",
+       }
+}
+```
+</details>
+
+
+--- 
+
+### 4. Categories Page Endpoints 
 <details>
 <summary> 📌 POST /category_businesses/ </summary>
 

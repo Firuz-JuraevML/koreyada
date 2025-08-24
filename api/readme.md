@@ -20,3 +20,8 @@ Language: Python
 | 500  | **Internal Server Error**| Generic server-side error |
 | 503  | **Service Unavailable**  | Server temporarily down or overloaded |
 
+
+> Main Page API Endpoints
+
+> [!NOTE]
+> Useful information that users should know, even when skimming content. 

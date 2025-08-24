@@ -381,7 +381,7 @@
 --- 
 
 
-### 5. News Page Endpoints 
+### 6. News Page Endpoints 
 <details>
 <summary> 📌 POST /news_details/ </summary>
 
@@ -459,3 +459,30 @@
 
 --- 
 
+
+
+### 6. News Page Endpoints 
+<details>
+<summary> 📌 POST /article_details/ </summary>
+
+### Article Details Endpoint 
+* Returns article's details 
+
+> Request body: 
+```json
+{
+  "article_id": 1 
+}
+```
+
+> Response (200): 
+```json
+{
+   "article_id": 12, 
+   "news_title_en": "How to open a bank account in Korea",
+   "news_title_uz": "Qanday qilib bank hisob raqam ochish", 
+}
+```
+</details>
+
+--- 

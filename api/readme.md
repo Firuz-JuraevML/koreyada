@@ -46,7 +46,7 @@
 
 
 <details>
-<summary> 📌 GET /categories/ </summary>
+<summary> 📌 GET /main_categories/ </summary>
 
 ### Categories Endpoint 
 * Returns categories with some information: visa, restaurants, money transfers, etc. 

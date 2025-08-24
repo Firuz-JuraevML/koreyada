@@ -27,22 +27,18 @@ Language: Python
 ### 1. Main Page API Endpoints
 
 <details>
-<summary>/main_statistics/</summary>
+<summary>**GET** _/main_statistics/_</summary>
 
-### You can add a header
+### Main Statistics Endpoint 
 
-You can add text within a collapsed section.
-
-You can add an image or a code block, too.
-
+> Response (200): 
 ```json
 {
-  "count": 2,
-  "items": [
-    { "id": 1, "name": "Item A" },
-    { "id": 2, "name": "Item B" }
-  ]
+  "n_users": 1250,
+  "n_categories": 6,
+  "n_businesses": 60,
+  "n_articles": 20,
+  "n_news": 45
 }
 ```
-
 </details>

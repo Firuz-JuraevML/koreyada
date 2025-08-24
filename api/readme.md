@@ -534,3 +534,88 @@
 
 
 --- 
+
+
+
+### 10. Main Search Page Endpoints 
+
+<details>
+<summary> 📌 POST /search_businesses/ </summary>
+
+> Request body: 
+```json
+{
+  "search_text": "E-7 visa" 
+}
+```
+
+### Search Businesses Endpoint 
+* Returns all articles with some information
+
+> Response (200): 
+```json
+{
+  "1": {  "category_id": 1
+          "category_name_en": "Visa",
+          "category_name_uz": "Viza", 
+          "category_description_en": "Visa applications, renewals, and immigration assistance",
+       }
+}
+```
+</details>
+
+
+
+<details>
+<summary> 📌 POST /search_news/ </summary>
+
+### Search News Endpoint 
+* Returns all articles with some information
+
+> Request body: 
+```json
+{
+  "search_text": "E-7 visa" 
+}
+```
+
+> Response (200): 
+```json
+{
+  "1": {  "category_id": 1
+          "category_name_en": "Visa",
+          "category_name_uz": "Viza", 
+          "category_description_en": "Visa applications, renewals, and immigration assistance",
+       }
+}
+```
+</details>
+
+
+
+<details>
+<summary> 📌 POST /search_articles/ </summary>
+
+### Search Articles Endpoint 
+* Returns all articles with some information
+
+> Request body: 
+```json
+{
+  "search_text": "E-7 visa" 
+}
+```
+
+> Response (200): 
+```json
+{
+  "1": {  "category_id": 1
+          "category_name_en": "Visa",
+          "category_name_uz": "Viza", 
+          "category_description_en": "Visa applications, renewals, and immigration assistance",
+       }
+}
+```
+</details>
+
+--- 
